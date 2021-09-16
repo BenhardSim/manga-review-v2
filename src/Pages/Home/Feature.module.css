@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Glory:wght@500&family=Raleway:wght@200&family=Yanone+Kaffeesatz:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Glory:wght@400;500&family=Raleway:wght@200&family=Yanone+Kaffeesatz:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Glory:wght@500&family=Yanone+Kaffeesatz:wght@600&display=swap');
+
+.feature{
+    height: 800px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.feature h1{
+    font-family: 'Glory', sans-serif;
+    font-size: 2rem;
+  
+}
+
+.thumb{ 
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+}
+
+
+.cardContainer{
+    align-items: center;
+    height: 67%;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+    /* width: 100vw; */
+    align-items: center;
+    flex-direction: row;
+    margin: 0;
+    /* background-color: #FFE194; */
+
+}
+
+.cardCol{
+    display: flex;
+    width: 300px;
+    /* flex: 25%; */
+    height: 90%;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.card h2{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 1rem;
+    text-align: left;
+}
+
+.img{
+    height: 70%;
+    display: inline-block;
+}
+
+.img img{
+    width: 100%;
+    border-radius: 12px 12px 0 0;
+}
+
+.featwrap{
+    display: flex;
+    flex-direction: row;
+}
+
+.col1 .col2{
+    display: flex;
+    width: 50%;
+}
+
+

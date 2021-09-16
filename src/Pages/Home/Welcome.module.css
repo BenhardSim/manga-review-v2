@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Glory:wght@500&family=Yanone+Kaffeesatz:wght@600&display=swap');
+.welcome{
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url("./../../aset/raHouse.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 800px;
+    background-position: bottom;
+    color: white;
+    /* width: 100%; */
+    /* display:block; */
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+.content{
+    margin: 0;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    top: 32%;
+    /* left: 12%; */
+}
+
+.content h1{
+    margin: 0%;
+    font-size: 4rem;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.content p{
+    /* font-family: 'Yanone Kaffeesatz', sans-serif; */
+    letter-spacing: 3px;
+    line-height: 28px;
+    /* font-size: 2rem; */
+}

@@ -1,0 +1,67 @@
+form{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+input {
+	background-color: #eee;
+	border: none;
+	padding: 12px 15px;
+	margin: 8px 0;
+	width: 70%;
+    border-radius: 8px;
+    
+}
+
+Button{
+    margin-top: 30px;
+}
+
+.form{
+    flex: 60%;
+}
+
+.logo{
+    flex: 40%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    /* background-color: pink; */
+    margin: 0;
+    background: url("./../../aset/read-anime.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    /* align-content: center; */
+}
+
+.logo img{
+    position: relative;
+    bottom: 30px;
+}
+
+.form h1{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    /* margin-bottom: 40px; */
+}
+
+@media (min-width: 768px) {
+    .modal {
+      width: 40rem;
+      left: calc(50% - 20rem);
+    }
+  }
+  
+  @keyframes slide-down {
+    from {
+      opacity: 0;
+      transform: translateY(-3rem);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
