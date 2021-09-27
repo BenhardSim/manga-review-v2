@@ -15,7 +15,7 @@ function Feature() {
             </div>
             <div className={classes.featwrap}>
                 <div className={classes.col1}>
-                    111
+                
                     {/* <div className={classes.cardContainer}>
                         <div className={classes.cardCol}>
                             <CardPage>
