@@ -1,6 +1,7 @@
 .checkout{
     height: 400px;
     display: flex;
+    background-color: #EFEFEF;
 }
 
 .content{

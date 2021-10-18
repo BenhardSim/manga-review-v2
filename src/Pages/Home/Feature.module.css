@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Glory:wght@500&family=Yanone+Kaffeesatz:wght@600&display=swap');
 
 .feature{
-    height: 600px;
+    height: 800px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -16,74 +16,37 @@
   
 }
 
-.thumb{ 
-    text-align: center;
+.container{
+    margin-top: 20px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    /* flex-direction: column; */
+    justify-content: space-evenly;
 }
 
-
-.cardContainer{
-    align-items: center;
-    height: 67%;
-    align-content: center;
-    justify-content: center;
+.column{
     display: flex;
-    padding-left: 10%;
-    padding-right: 10%;
-    /* width: 100vw; */
-    align-items: center;
-    flex-direction: row;
-    margin: 0;
-    /* background-color: #FFE194; */
+    margin-left: 20px;
+    margin-right: 20px;
 
 }
 
-.cardCol{
+.card{
     display: flex;
-    width: 300px;
-    /* flex: 25%; */
-    height: 90%;
-    align-content: center;
-    text-align: center;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
 }
 
-.content{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50px;
+.manimg img{
+    width: 260px;
+    border-radius: 10px;
 }
 
-.card h2{
-    font-family: 'Yanone Kaffeesatz', sans-serif;
-    font-size: 1rem;
-    text-align: left;
+
+.extra{
+    margin-top: 0%;
 }
 
-.img{
-    height: 70%;
-    display: inline-block;
-}
 
-.img img{
-    width: 100%;
-    border-radius: 12px 12px 0 0;
-}
-
-.featwrap{
-    display: flex;
-    flex-direction: row;
-}
-
-.col1 .col2{
-    display: flex;
-    width: 50%;
-}
 
 

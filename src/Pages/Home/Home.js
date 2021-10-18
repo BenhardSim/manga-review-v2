@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import Backdrop from './Backdrop'
 import CheckOut from './CheckOut'
 import Feature from './Feature'
+import Footer from './Footer'
 import Navbar from './Navbar'
 import Reviews from './Reviews'
 import Welcome from './Welcome'
@@ -30,6 +31,7 @@ function Home() {
             <Feature />
             <Reviews />
             <CheckOut />
+            <Footer />
         </section>
     )
 }

@@ -15,9 +15,27 @@
     justify-content: center;
     cursor: pointer;
     font-family: 'Raleway', sans-serif;
+    /* margin-top: 0; */
 }
 
 .button:active{
     background-color: rgb(192, 192, 33);
 }
 
+.button2{
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    background-color: #F2AE1C;
+    font-size: 1rem;
+    margin-right: 3%;
+    font-weight: bold;
+    display: inline-flex;
+    width: auto;
+    border-style: none;
+    justify-content: center;
+    cursor: pointer;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 0;
+}
